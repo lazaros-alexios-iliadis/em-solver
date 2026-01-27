@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-make"
+	BuildStamp="20260126-2313-Experimental"
+	Name="lazaros"
+	Generator="ctest-4.2.1"
+	CompilerName="C:/msys64/ucrt64/bin/c++.exe"
+	CompilerVersion="14.2.0"
+	OSName="Windows"
+	Hostname="lazaros"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ModelName="AMD Ryzen 9 5900HX with Radeon Graphics"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="32104"
+	TotalPhysicalMemory="15720"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3301"
+	>
+	<Testing>
+		<StartDateTime>Jan 27 18:25 GTB Standard Time</StartDateTime>
+		<StartTestTime>1769531102</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 27 18:25 GTB Standard Time</EndDateTime>
+		<EndTestTime>1769531102</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
