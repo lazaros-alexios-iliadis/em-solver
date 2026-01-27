@@ -86,18 +86,34 @@ CMakeFiles/em-solver.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/em-solver.dir/src/main.cpp.s"
 	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/iliadis/Documents/PhD/em-solver/src/main.cpp -o CMakeFiles/em-solver.dir/src/main.cpp.s
 
+CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj: CMakeFiles/em-solver.dir/flags.make
+CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj: C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp
+CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj: CMakeFiles/em-solver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/iliadis/Documents/PhD/em-solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj -MF CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj.d -o CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj -c C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp
+
+CMakeFiles/em-solver.dir/src/poisson_1d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/em-solver.dir/src/poisson_1d.cpp.i"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp > CMakeFiles/em-solver.dir/src/poisson_1d.cpp.i
+
+CMakeFiles/em-solver.dir/src/poisson_1d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/em-solver.dir/src/poisson_1d.cpp.s"
+	C:/msys64/ucrt64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp -o CMakeFiles/em-solver.dir/src/poisson_1d.cpp.s
+
 # Object files for target em-solver
 em__solver_OBJECTS = \
-"CMakeFiles/em-solver.dir/src/main.cpp.obj"
+"CMakeFiles/em-solver.dir/src/main.cpp.obj" \
+"CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj"
 
 # External object files for target em-solver
 em__solver_EXTERNAL_OBJECTS =
 
 em-solver.exe: CMakeFiles/em-solver.dir/src/main.cpp.obj
+em-solver.exe: CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj
 em-solver.exe: CMakeFiles/em-solver.dir/build.make
 em-solver.exe: CMakeFiles/em-solver.dir/linkLibs.rsp
 em-solver.exe: CMakeFiles/em-solver.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/iliadis/Documents/PhD/em-solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable em-solver.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/iliadis/Documents/PhD/em-solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable em-solver.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/em-solver.dir/objects.a
 	C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/em-solver.dir/objects.a @CMakeFiles/em-solver.dir/objects1.rsp
 	C:/msys64/ucrt64/bin/c++.exe -g -Wl,--whole-archive CMakeFiles/em-solver.dir/objects.a -Wl,--no-whole-archive -o em-solver.exe -Wl,--out-implib,libem-solver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/em-solver.dir/linkLibs.rsp

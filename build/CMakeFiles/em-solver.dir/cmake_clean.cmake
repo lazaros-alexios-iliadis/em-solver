@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/em-solver.dir/src/main.cpp.obj"
   "CMakeFiles/em-solver.dir/src/main.cpp.obj.d"
+  "CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj"
+  "CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj.d"
   "em-solver.exe"
   "em-solver.exe.manifest"
   "em-solver.pdb"

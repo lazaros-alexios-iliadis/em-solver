@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/iliadis/Documents/PhD/em-solver/src/main.cpp" "CMakeFiles/em-solver.dir/src/main.cpp.obj" "gcc" "CMakeFiles/em-solver.dir/src/main.cpp.obj.d"
+  "C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp" "CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj" "gcc" "CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

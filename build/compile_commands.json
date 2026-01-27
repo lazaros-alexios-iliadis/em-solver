@@ -4,5 +4,11 @@
   "command": "C:/msys64/ucrt64/bin/c++.exe   -g -std=gnu++17 -o CMakeFiles/em-solver.dir/src/main.cpp.obj -c C:/Users/iliadis/Documents/PhD/em-solver/src/main.cpp",
   "file": "C:/Users/iliadis/Documents/PhD/em-solver/src/main.cpp",
   "output": "CMakeFiles/em-solver.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/iliadis/Documents/PhD/em-solver/build",
+  "command": "C:/msys64/ucrt64/bin/c++.exe   -g -std=gnu++17 -o CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj -c C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp",
+  "file": "C:/Users/iliadis/Documents/PhD/em-solver/src/poisson_1d.cpp",
+  "output": "CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj"
 }
 ]

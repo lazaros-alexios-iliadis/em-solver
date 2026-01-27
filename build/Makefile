@@ -527,6 +527,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/em-solver.dir/build.make CMakeFiles/em-solver.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/poisson_1d.obj: src/poisson_1d.cpp.obj
+.PHONY : src/poisson_1d.obj
+
+# target to build an object file
+src/poisson_1d.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/em-solver.dir/build.make CMakeFiles/em-solver.dir/src/poisson_1d.cpp.obj
+.PHONY : src/poisson_1d.cpp.obj
+
+src/poisson_1d.i: src/poisson_1d.cpp.i
+.PHONY : src/poisson_1d.i
+
+# target to preprocess a source file
+src/poisson_1d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/em-solver.dir/build.make CMakeFiles/em-solver.dir/src/poisson_1d.cpp.i
+.PHONY : src/poisson_1d.cpp.i
+
+src/poisson_1d.s: src/poisson_1d.cpp.s
+.PHONY : src/poisson_1d.s
+
+# target to generate assembly for a file
+src/poisson_1d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/em-solver.dir/build.make CMakeFiles/em-solver.dir/src/poisson_1d.cpp.s
+.PHONY : src/poisson_1d.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -568,6 +592,9 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/poisson_1d.obj"
+	@echo "... src/poisson_1d.i"
+	@echo "... src/poisson_1d.s"
 .PHONY : help
 
 
